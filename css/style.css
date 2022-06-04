@@ -1,0 +1,203 @@
+.header{
+    background-color: rgba(255, 255, 255, 0.352);
+    padding: 15px 35px;
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+.logo a{
+    font-size: 35px;
+    color: rgb(236, 234, 234);
+    text-decoration:none ;
+    font-weight: bold;
+    text-transform:uppercase  ;
+}
+.nav{
+    width: 80%;
+}
+.nav ul{
+    list-style: none;
+}
+.nav li{
+    margin: 0 24px;
+}
+.nav li a{
+    color: rgb(236, 234, 234);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+.nav li a:hover{
+    opacity: 0.8;
+    text-decoration: overline;
+    color: rgb(14, 97, 221);
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.148);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.banner-1{
+    height: 100vh;
+    overflow: hidden;
+}
+.banner-1 video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+.quote{
+    position:relative;
+    width: 500px;
+    padding: 22px 27px 22px 27px;
+    margin: 200px 400px 200px 400px;
+}
+.type {
+    margin: 0 auto;
+    text-align: center;
+    color: rgba(29, 81, 213, 0.571);
+    font-size: 200px;
+    letter-spacing: 0.5px;
+}
+.quote h1{
+    text-align: left;
+    font-size: 60px;
+    color: aliceblue;
+}
+.quote h4{
+    font-size: 25px;
+    color: aliceblue;
+}
+.quote h2{
+    font-size: 60px;
+    color: aliceblue;
+}
+.color-black{
+    /* background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(0,212,255,1) 100%); */
+    background-color: black;
+}
+.card{
+    background-color: rgba(240, 248, 255, 0.943);
+    
+}
+.section-1{
+    padding: 80px 0
+}
+.section-1 h1{
+    text-align: center;
+    margin-bottom: 76px;
+    color: #15d0fa;
+    font-size: 35px;
+}
+.container{
+    width: 1000px;
+}
+.content{
+    padding: 30px 0
+}
+.feature{
+    height: 285px;
+    overflow: hidden;
+    
+}
+.feature img{
+    height: 100%;
+    width: 308px;
+}
+.content p{
+    margin: 16px 0;
+}
+.about{
+    background-color: #F0F0F0;
+}
+.image-1{
+    height: 500px;
+    overflow: hidden;
+}
+.image-1 img{
+    height: 100%;
+}
+.content-about p{
+    margin: 8px 0 40px;
+    color: aliceblue;
+}
+.content-about ul{
+    margin-left: 24px;
+    margin-bottom: 40px;
+}
+.content-about li{
+    margin: 16px 0
+}
+.btn-green{
+    padding: 8px 32px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(44, 187, 212);
+}
+.btn-green:hover{
+    color: rgb(232, 232, 232);
+    background-color: rgb(0, 53, 99);
+}
+.img-2{
+    height: 800px;
+    overflow: hidden;
+}
+.img-2 img{
+    height: 100%;
+}
+.img-3{
+    height: 262px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.img-3 img{
+    height: 100%;
+}
+.img-4{
+    height: 262px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.img-4 img{
+    height: 100%;
+}
+.img-5{
+    height: 262px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+.img-5 img{
+    height: 100%;
+}
+.picture-1{
+    height: 285px;
+    overflow: hidden;
+    border-radius: 30%;
+}
+.picture-1 img{
+    height: 100%;
+    width: 308px;
+}
+.contentsec-3 h2 {
+    text-align: center;
+    margin: 10px;
+    color: aliceblue;
+}
+.contentsec-3 q{
+    color: aliceblue;
+}
+.section-3 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    color: #15d0fa;
+    font-size: 35px;
+}
+footer {
+    padding: 24px 0;
+    color: white;
+    background-color: #1bc2ff;
+    margin-top: 80px;
+    text-align: center;
+}
